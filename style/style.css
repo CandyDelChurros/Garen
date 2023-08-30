@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    border:0;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    border: .1rem solid black;
+    background-image: url(../img/lane.png);
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-shadow: .2rem .2rem .1rem black;
+}
+
+.personagem {
+    height: 55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personagem #garen {
+    position: absolute;
+    background: url(../img/d7rvxvn-eaf49f18-53e5-40e5-9220-dacd16e87d11.gif);
+    width: 50rem;
+    background-repeat: no-repeat;
+    height: 35.6rem;
+    display:none;
+}
+
+.personagem #neeko {
+    background: url(../img/neeko-dance-avalontm.gif);
+    background-position-y: -9rem;
+    width: 50rem;
+    background-repeat: no-repeat;
+    height: 35.6rem;
+    display:none;
+}
+
+.invoca {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.invoca button {
+    border: .1rem solid black;
+    width: 25rem;
+    font-size: 2rem;
+    box-shadow: .2rem .3rem .1rem black;
+}
+
+.invoca button:hover {
+    background-color: rgb(43, 42, 42);
+    color: white;
+    cursor: pointer;
+}
