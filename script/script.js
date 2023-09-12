@@ -17,8 +17,11 @@ function invocarGaren(){
 }
 
 function invocarNeeko(){
+    const youfoundneeko = document.querySelector('audio')
+    youfoundneeko.play()
     document.getElementById('neeko').style.display = 'block';
     setTimeout(deletar, 2000)
+    
 }
 
 function deletar(){
